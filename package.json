@@ -1,0 +1,39 @@
+{
+  "name": "ql-pages",
+  "version": "0.1.0",
+  "description": "static web app worlflow",
+  "keywords": [
+    "ql-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/qinleilxl/ql-pages#readme",
+  "bugs": {
+    "url": "https://github.com/qinleilxl/ql-pages/issues"
+  },
+  "license": "MIT",
+  "author": "qinlei <qinleilxl@outlook.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qinleilxl/ql-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
